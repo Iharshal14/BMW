@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>table</title>
+        <link rel="stylesheet">
+        <style type="text/css">
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        <table align="inli" padding="10 6px" bgcolor="black" width="700">
+            <tr bgcolor="grey">
+            <th width="200"> Sr_no</th>
+            <th width="200">Model name</th>
+            <th width="200">Image</th>
+            <th width="200">Price</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>1.</td>
+            <td>BMW iX1</td>
+            <td class="myImage">
+	    <a href= "https://www.bmw.in/en/all-models/bmw-i/iX1/2022/bmw-ix1-highlights.html" target="_blank"> 
+                <img src="imgs/1.png" width="300px" alt="">
+	    </a>
+            </td>
+            <td>Starting from ₹ 6,690,000</td>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>2.</td>
+            <td>BMW iX</td>
+            <td class="myImage">
+	    <a href= "https://www.bmw.in/en/all-models/bmw-i/bmw-ix-new/2021/bmw-ix.html " target="_blank"> 
+                <img src="imgs/2.png" width="300px" alt="">
+	    </a>
+            </td>
+            <td>Starting from ₹ 12,100,000</td>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>3.</td>
+            <td>BMW i4</td>
+            <td class="myImage">
+	    <a href= " https://www.bmw.in/en/all-models/bmw-i/i4/2021/bmw-i4-highlights.html" target="_blank"> 
+                <img src="imgs/3.png" width="300px" alt="">
+	    </a>
+            </td>
+            <td>Starting from ₹ 7,250,000</td>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>4.</td>
+            <td>BMW i7</td>
+            <td class="myImage">
+	    <a href= "https://www.bmw.in/en/all-models/bmw-i/i7/2022/bmw-i7-sedan-highlights.html" target="_blank"> 
+                <img src="imgs/4.png" width="300px" alt="">
+	    </a>
+            </td>
+            <td>Starting from ₹ 19,500,000</td>
+        </tr>
+        </table>
+        <style>
+        body{
+            background-image: url(imgs/1125033.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid rgba(0,0,0,0.6);
+            padding: 10px;
+        }
+        .myImage{
+            text-align: center;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Agency FB;
+            font-size: large;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0px 50px;
+            position: relative;
+            font-size: x-large;
+        }
+         .navbar ul li a{   
+            text-decoration: none;
+            color: #fff;
+            text-transform: capitalize;
+            transition: all .50s ease;
+        }
+        .navbar ul li a:hover{
+            color:#0497ec;
+        }
+        .navbar ul li:hover::after{
+            width: 100%;
+        }
+        .content{
+            width: 100%;
+            position: absolute;
+            top: 37%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+        </style>
+    </body>
+</html>
